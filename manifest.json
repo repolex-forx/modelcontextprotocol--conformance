@@ -303,6 +303,278 @@
       ],
       "ast": [
         "aggregate/ast/c37eec888e1c6ff140af79987a40008548b7cc5f/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c37eec888e1c6ff140af79987a40008548b7cc5f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "@modelcontextprotocol/sdk",
+          "ecosystem": "NPM",
+          "version": "1.29.0",
+          "githubOrg": "modelcontextprotocol",
+          "githubRepo": "typescript-sdk",
+          "githubCommit": "e12cbd7078db388152f6e839abdbe09ba01f3f32",
+          "githubTag": "v1.29.0",
+          "githubUrl": "git+https://github.com/modelcontextprotocol/typescript-sdk.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@octokit/rest",
+          "ecosystem": "NPM",
+          "version": "22.0.0",
+          "githubOrg": "octokit",
+          "githubRepo": "rest.js",
+          "githubCommit": "77530abd535b0c97017de24a035018d36ba93f71",
+          "githubTag": "v22.0.0",
+          "githubUrl": "git+https://github.com/octokit/rest.js.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "ajv",
+          "ecosystem": "NPM",
+          "version": "8.20.0",
+          "githubOrg": "ajv-validator",
+          "githubRepo": "ajv",
+          "githubCommit": "0fba0b8e649909613cfce0999b149cd08f4a4987",
+          "githubTag": "v8.20.0",
+          "githubUrl": "git+https://github.com/ajv-validator/ajv.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "ajv-formats",
+          "ecosystem": "NPM",
+          "version": "3.0.1",
+          "githubOrg": "ajv-validator",
+          "githubRepo": "ajv-formats",
+          "githubCommit": "1fb3fa7d967f919ff924bb34aef73a2f39ab0de3",
+          "githubTag": "v3.0.1",
+          "githubUrl": "git+https://github.com/ajv-validator/ajv-formats.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "commander",
+          "ecosystem": "NPM",
+          "version": "14.0.2",
+          "githubOrg": "tj",
+          "githubRepo": "commander.js",
+          "githubCommit": "0692be58103e1ea8052d5d45ab11cc02e197eea5",
+          "githubTag": "v14.0.2",
+          "githubUrl": "git+https://github.com/tj/commander.js.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eventsource-parser",
+          "ecosystem": "NPM",
+          "version": "3.0.8",
+          "githubOrg": "rexxars",
+          "githubRepo": "eventsource-parser",
+          "githubCommit": "577bf983a2b683e69499f857facccde64829d0b7",
+          "githubTag": "v3.0.8",
+          "githubUrl": "git+ssh://git@github.com/rexxars/eventsource-parser.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "express",
+          "ecosystem": "NPM",
+          "version": "5.1.0",
+          "githubOrg": "expressjs",
+          "githubRepo": "express",
+          "githubCommit": "cd7d4397c398a3f3ecadeaf9ef6ac1377bd414c4",
+          "githubTag": "v5.1.0",
+          "githubUrl": "git+https://github.com/expressjs/express.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "jose",
+          "ecosystem": "NPM",
+          "version": "6.1.2",
+          "githubOrg": "panva",
+          "githubRepo": "jose",
+          "githubCommit": "f71f270d21ab0eef5b0b84c320eb2aafb69aa3b5",
+          "githubTag": "v6.1.2",
+          "githubUrl": "git+https://github.com/panva/jose.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "undici",
+          "ecosystem": "NPM",
+          "version": "7.25.0",
+          "githubOrg": "nodejs",
+          "githubRepo": "undici",
+          "githubCommit": "12d9045923b7caebb1ae6975ef34c29dbcfd95d0",
+          "githubTag": "v7.25.0",
+          "githubUrl": "git+https://github.com/nodejs/undici.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "yaml",
+          "ecosystem": "NPM",
+          "version": "2.8.2",
+          "githubOrg": "eemeli",
+          "githubRepo": "yaml",
+          "githubCommit": "086fa6b5bae325da18734750cddee231ce578930",
+          "githubTag": "v2.8.2",
+          "githubUrl": "git+https://github.com/eemeli/yaml.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "zod",
+          "ecosystem": "NPM",
+          "version": "4.3.6",
+          "githubOrg": "colinhacks",
+          "githubRepo": "zod",
+          "githubCommit": "ca3c8629c0c2715571f70b44c2433cad3db7fe4e",
+          "githubTag": "v4.3.6",
+          "githubUrl": "git+https://github.com/colinhacks/zod.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@eslint/js",
+          "ecosystem": "NPM",
+          "version": "9.39.4",
+          "githubOrg": "eslint",
+          "githubRepo": "eslint",
+          "githubCommit": "f5770b0df0d3ffff6a428d1c19a99bdb794053a3",
+          "githubTag": "v9.39.4",
+          "githubUrl": "git+https://github.com/eslint/eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/express",
+          "ecosystem": "NPM",
+          "version": "5.0.3",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/node",
+          "ecosystem": "NPM",
+          "version": "25.6.0",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@typescript/native-preview",
+          "ecosystem": "NPM",
+          "version": "7.0.0-dev.20260424.1",
+          "githubOrg": "microsoft",
+          "githubRepo": "typescript-go",
+          "githubUrl": "git+https://github.com/microsoft/typescript-go.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "cors",
+          "ecosystem": "NPM",
+          "version": "2.8.5",
+          "githubOrg": "expressjs",
+          "githubRepo": "cors",
+          "githubCommit": "9158a8686d64bf567440d030873378c429ad60b0",
+          "githubTag": "v2.8.5",
+          "githubUrl": "git+https://github.com/expressjs/cors.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eslint",
+          "ecosystem": "NPM",
+          "version": "9.39.4",
+          "githubOrg": "eslint",
+          "githubRepo": "eslint",
+          "githubCommit": "f5770b0df0d3ffff6a428d1c19a99bdb794053a3",
+          "githubTag": "v9.39.4",
+          "githubUrl": "git+https://github.com/eslint/eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eslint-config-prettier",
+          "ecosystem": "NPM",
+          "version": "10.1.8",
+          "githubOrg": "prettier",
+          "githubRepo": "eslint-config-prettier",
+          "githubCommit": "9b0b0a47ec28a7a83cf65e8436a8776910379385",
+          "githubTag": "v10.1.8",
+          "githubUrl": "git+https://github.com/prettier/eslint-config-prettier.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "lefthook",
+          "ecosystem": "NPM",
+          "version": "2.1.6",
+          "githubOrg": "evilmartians",
+          "githubRepo": "lefthook",
+          "githubCommit": "679ce270ec13b525ac7045041763f60e0450227d",
+          "githubTag": "v2.1.6",
+          "githubUrl": "git+https://github.com/evilmartians/lefthook.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "prettier",
+          "ecosystem": "NPM",
+          "version": "3.8.3",
+          "githubOrg": "prettier",
+          "githubRepo": "prettier",
+          "githubCommit": "d7108a79ec745c04292aabf22c4c1adbd690b191",
+          "githubTag": "3.8.3",
+          "githubUrl": "git+https://github.com/prettier/prettier.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "tsdown",
+          "ecosystem": "NPM",
+          "version": "0.21.10",
+          "githubOrg": "rolldown",
+          "githubRepo": "tsdown",
+          "githubCommit": "53d495ba2e21aa5553bbb9cd07a38caa9d859f1b",
+          "githubTag": "v0.21.10",
+          "githubUrl": "git+https://github.com/rolldown/tsdown.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "tsx",
+          "ecosystem": "NPM",
+          "version": "4.7.0",
+          "githubOrg": "privatenumber",
+          "githubRepo": "tsx",
+          "githubCommit": "8c778919496a8164ec63d0b488c805bce1aba839",
+          "githubTag": "v4.7.0",
+          "githubUrl": "git+https://github.com/privatenumber/tsx.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript",
+          "ecosystem": "NPM",
+          "version": "5.5.4",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "githubCommit": "c8a7d589e647e19c94150d9892909f3aa93e48eb",
+          "githubTag": "v5.5.4",
+          "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript-eslint",
+          "ecosystem": "NPM",
+          "version": "8.59.0",
+          "githubOrg": "typescript-eslint",
+          "githubRepo": "typescript-eslint",
+          "githubCommit": "ea9ae4f8817873480e3501145059f63e39e8d8a1",
+          "githubTag": "v8.59.0",
+          "githubUrl": "https://github.com/typescript-eslint/typescript-eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitest",
+          "ecosystem": "NPM",
+          "version": "4.1.5",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "e399846850fedf10b8228cbe46a419628998acd9",
+          "githubTag": "v4.1.5",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        }
       ]
     }
   ],

@@ -1,0 +1,69 @@
+[2026-10-05T09:52:15Z] === ENRICH ITERATION 1 START | repo=modelcontextprotocol/conformance sha=c37eec88 ===
+[2026-10-05T09:52:15Z] [iter=1] PHASE START: enrich repo=modelcontextprotocol/conformance sha=c37eec88 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c37eec88-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c37eec888e1c6ff140af79987a40008548b7cc5f.nq.gz
+[2026-10-05T09:52:35Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-10-05T09:52:48Z] [iter=1] AST store loaded triples=1691472 load_secs=13 mem_mb=991 MB
+[2026-10-05T09:52:48Z] [iter=1] Step 2: Finding LSP targets mem_mb=991 MB
+[2026-10-05T09:52:50Z] [iter=1] LSP targets found call_sites=13568 imports=1100 extends=287 implements=107 secs=2
+[2026-10-05T09:52:52Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=991 MB
+[2026-10-05T09:52:57Z] [iter=1] Position index built positions=117785 nodes_with_types=133577 secs=6 mem_mb=991 MB
+[2026-10-05T09:52:57Z] [iter=1] Step 3: Starting LSP resolution mem_mb=991 MB already_completed_types=[] already_completed_files=0
+[2026-10-05T09:52:57Z] [iter=1] Resolving target type target_type=call_site count=13568
+[2026-10-05T09:52:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=src/expected-failures.test.ts
+[2026-10-05T09:54:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=1 resolved=1 errors=208 current=src/scenarios/client/auth/helpers/dpopResourceAuth.test.ts
+[2026-10-05T09:55:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=2 resolved=3 errors=293 current=src/scenarios/index.ts
+[2026-10-05T09:56:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=4 resolved=63 errors=466 current=src/connection/stateless.ts
+[2026-10-05T09:56:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.5 files_done=6 resolved=300 errors=555 current=src/scenarios/client/json-schema-2020-12-preservation.test.ts
+[2026-10-05T09:57:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=7 resolved=309 errors=640 current=src/scenarios/client/request-metadata.test.ts
+[2026-10-05T09:58:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=9 resolved=343 errors=740 current=src/checks/collapse.test.ts
+[2026-10-05T09:58:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=12 resolved=387 errors=844 current=examples/clients/typescript/auth-test-iss-validation.ts
+[2026-10-05T09:59:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=14 resolved=407 errors=988 current=src/schemas/context.ts
+[2026-10-05T10:00:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=17 resolved=448 errors=1068 current=src/index.ts
+[2026-10-05T10:00:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=18 resolved=574 errors=1147 current=src/scenarios/server/skills/enumeration.ts
+[2026-10-05T10:01:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=19 resolved=738 errors=1257 current=src/scenarios/client/auth/helpers/createServer.ts
+[2026-10-05T10:02:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=23 resolved=775 errors=1364 current=src/scenarios/client/auth/token-endpoint-auth.ts
+[2026-10-05T10:02:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=26 resolved=842 errors=1439 current=src/tier-check/index.ts
+[2026-10-05T10:03:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=29 resolved=964 errors=1525 current=src/scenarios/server/elicitation-enums.ts
+[2026-10-05T10:04:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.8 files_done=33 resolved=1090 errors=1614 current=examples/clients/typescript/everything-client.ts
+[2026-10-05T10:04:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.7 files_done=34 resolved=1148 errors=1742 current=examples/servers/typescript/no-dns-rebinding-protection.ts
+[2026-10-05T10:05:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=36 resolved=1228 errors=1849 current=src/schemas.ts
+[2026-10-05T10:06:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.1 files_done=40 resolved=1465 errors=1948 current=examples/servers/typescript/sep-2106-stripped-schema.ts
+[2026-10-05T10:06:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=43 resolved=1522 errors=2036 current=src/scenarios/server/tasks/mrtr-input.ts
+[2026-10-05T10:08:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.9 files_done=45 resolved=1586 errors=2219 current=src/runner/server.ts
+[2026-10-05T10:09:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=48 resolved=1649 errors=2341 current=src/scenarios/server/all-scenarios.test.ts
+[2026-10-05T10:10:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=52 resolved=1692 errors=2499 current=src/scenarios/request-logger.ts
+[2026-10-05T10:10:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=58 resolved=1844 errors=2583 current=src/scenarios/server/tools.ts
+[2026-10-05T10:11:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=60 resolved=2008 errors=2695 current=src/mock-server/select.ts
+[2026-10-05T10:12:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.9 files_done=64 resolved=2068 errors=2806 current=src/sdk-runner/sdk-runner.test.ts
+[2026-10-05T10:13:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=65 resolved=2071 errors=2929 current=examples/clients/typescript/auth-test-ignore-scope.ts
+[2026-10-05T10:13:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=69 resolved=2158 errors=3006 current=src/scenarios/client/http-standard-headers.test.ts
+[2026-10-05T10:14:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.8 files_done=75 resolved=2219 errors=3088 current=examples/clients/typescript/helpers/ConformanceOAuthProvider.ts
+[2026-10-05T10:14:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.5 files_done=79 resolved=2293 errors=3184 current=src/scenarios/client/json-schema-ref-deref.test.ts
+[2026-10-05T10:15:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=83 resolved=2395 errors=3257 current=src/sdk-runner/config.ts
+[2026-10-05T10:16:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.2 files_done=86 resolved=2402 errors=3431 current=src/scenarios/client/json-schema-ref-deref.ts
+[2026-10-05T10:17:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.8 files_done=91 resolved=2578 errors=3521 current=src/scenarios/server/stateless.ts
+[2026-10-05T10:17:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.4 files_done=93 resolved=2655 errors=3621 current=src/scenarios/client/http-base.ts
+[2026-10-05T10:18:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=100 resolved=2799 errors=3697 current=src/scenarios/client/http-standard-headers.ts
+[2026-10-05T10:18:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.5 files_done=107 resolved=2896 errors=3780 current=src/tier-check/checks/release.test.ts
+[2026-10-05T10:19:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=109 resolved=2957 errors=3857 current=src/scenarios/server/tasks/request-state.ts
+[2026-10-05T10:19:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.7 files_done=112 resolved=2980 errors=3954 current=src/scenarios/client/auth/helpers/dpopProof.test.ts
+[2026-10-05T10:20:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.2 files_done=115 resolved=3013 errors=4033 current=src/scenarios/authorization-server/authorization-code-grant.ts
+[2026-10-05T10:21:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.8 files_done=122 resolved=3179 errors=4113 current=src/scenarios/client/auth/helpers/validateDpopProofAtTokenEndpoint.test.ts
+[2026-10-05T10:21:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=124 resolved=3193 errors=4186 current=src/scenarios/server/http-standard-headers.test.ts
+[2026-10-05T10:22:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.0 files_done=127 resolved=3286 errors=4289 current=src/scenarios/client/auth/helpers/dpopProof.ts
+[2026-10-05T10:22:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.5 files_done=133 resolved=3352 errors=4363 current=src/new-sep/index.ts
+[2026-10-05T10:23:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.1 files_done=139 resolved=3460 errors=4446 current=src/connection/sdk-client.test.ts
+[2026-10-05T10:24:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.9 files_done=146 resolved=3556 errors=4565 current=src/scenarios/server/utils.ts
+[2026-10-05T10:24:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.4 files_done=154 resolved=3627 errors=4647 current=examples/servers/typescript/sep-2322-mrtr-broken-server.ts
+[2026-10-05T10:25:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.0 files_done=165 resolved=3712 errors=4732 current=src/scenarios/client/auth/helpers/resourceParameterChecks.ts
+[2026-10-05T10:25:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.5 files_done=181 resolved=3819 errors=4806 current=src/tier-check/checks/triage.ts
+[2026-10-05T10:26:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.0 files_done=218 resolved=3930 errors=4876 current=eslint.config.mjs
+[2026-10-05T10:26:16Z] [iter=1] Target type resolved target_type=call_site resolved=3930 errors=4876 secs=1998 mem_mb=991 MB
+[2026-10-05T10:26:16Z] [iter=1] Resolving target type target_type=import_statement count=1100
+[2026-10-05T10:26:22Z] [iter=1] Target type resolved target_type=import_statement resolved=762 errors=0 secs=6 mem_mb=991 MB
+[2026-10-05T10:26:22Z] [iter=1] Resolving target type target_type=extends_clause count=287
+[2026-10-05T10:26:24Z] [iter=1] Target type resolved target_type=extends_clause resolved=287 errors=0 secs=2 mem_mb=991 MB
+[2026-10-05T10:26:24Z] [iter=1] Resolving target type target_type=implements_clause count=107
+[2026-10-05T10:26:25Z] [iter=1] Target type resolved target_type=implements_clause resolved=107 errors=0 secs=2 mem_mb=991 MB
+[2026-10-05T10:26:35Z] [iter=1] Step 5: Writing final enrichment file triples=161617
+[2026-10-05T10:26:36Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c37eec888e1c6ff140af79987a40008548b7cc5f.nq.gz size_kb=3569
+[2026-10-05T10:26:36Z] [iter=1] PHASE END: enrich elapsed_s=2061 elapsed_min=34.3 total_triples=161617
